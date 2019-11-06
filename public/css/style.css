@@ -21,6 +21,7 @@ body {
 
 .name_vote {
     text-align: center;
+    color: black;
 }
 
 .stage {
@@ -50,6 +51,34 @@ body {
 
 .stage a:hover:after {
     color:#231f20;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 40px;
+    padding-top: 35%;
+    text-align: center;
+}
+
+.overlay a span i {
+    color: white;
+}
+
+.overlay a span i:hover, .overlay a span i:focus {
+    color: #3498DB;
+}
+
+.card:hover .overlay {
+    opacity: 1;
 }
 
 /* News */
