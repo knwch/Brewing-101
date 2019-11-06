@@ -65,7 +65,7 @@ body {
     opacity:0;
     color: white;
     font-size: 40px;
-    padding-top: 35%;
+    padding-top: 30%;
     text-align: center;
 }
 
@@ -81,6 +81,13 @@ body {
     opacity: 1;
 }
 
+.mr-point {
+    margin-top: -1%;
+}
+
+.card .card-footer a {
+    color: black;
+}
 /* News */
 .pagination {
     list-style: none;
