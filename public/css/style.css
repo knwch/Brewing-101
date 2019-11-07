@@ -1,11 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 body {
     background: #121212;
     color: #fff;
-} 
+}
 
-.navbar {
+  .navbar {
     background: #ffc107;
+      font-weight: bold;
 }
 
 .footer {
@@ -214,16 +219,21 @@ body {
 
 .single-team-member .team-member-content {
     padding: 15px 15px;
+    margin-left: 0.3rem;
 }
 
 .single-team-member .team-member-thumbnail img {
-    margin-left: 0.4rem;
+    margin-left: 0.5rem;
     width: 100%;
 }
 
 img {
     height: auto;
     max-width: 100%;
+}
+
+.single-team-member img {
+    border-radius: 2%;
 }
 
 .single-team-member .team-member-content h6 {
