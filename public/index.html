@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Home</title>
+        <title>Brewing101</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,220 +13,15 @@
         <link rel="shortcut icon" href="img/pint.png" />
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm navbar-light ">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/brewing101-logo.png" class="logo" alt="logo" style="width: 5em">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" id="toggle_id"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item mr-1">
-                        <a class="nav-link" href="#vote">Vote<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item mr-1">
-                        <a class="nav-link" href="news.html">Articles</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="barrel.html">Barrel</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <img src="img/banner-index.jpg" class="mb-4 w-100" alt="...">
-
-        <div id="carouselExampleInterval" class="carousel slide mb-4" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="3000">
-                    <img src="img/banner-1.jpg" class="d-block w-100" alt="...">
-<!--                    <div class="carousel-caption d-none d-md-block">-->
-<!--                        <h5>First slide label</h5>-->
-<!--                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
-<!--                    </div>-->
-                </div>
-                <div class="carousel-item" data-interval="3000">
-                    <img src="img/banner-2.jpg" class="d-block w-100" alt="...">
-<!--                    <div class="carousel-caption d-none d-md-block">-->
-<!--                        <h5>First slide label</h5>-->
-<!--                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
-<!--                    </div>-->
-                </div>
-                <div class="carousel-item" data-interval="3000">
-                    <img src="img/banner-3.jpg" class="d-block w-100" alt="...">
-<!--                    <div class="carousel-caption d-none d-md-block">-->
-<!--                        <h5>First slide label</h5>-->
-<!--                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
-<!--                    </div>-->
+        <div class="container">
+            <div class="card card-color">
+                <div class="card-body">
+                    <img src="img/brewing101-logo.png">
+                    <p >คุณมีอายุมากกว่า 20 ปีที่สามารถดื่มแอลกอฮอล์หรือไม่?</p>
+                    <a href="home.html" class="btn btn-outline-secondary btn-block" role="button">ใช่</a>
+                    <a href="https://www.google.com/" class="btn btn-outline-secondary btn-block" role="button">ไม่ใช่</a>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-
-        <div data-spy="scroll" class="container" data-target="navbarTogglerDemo03" data-offset="50">
-            <div class="card mt-3 mb-3 mx-auto w-75" style="background-color: #1e1e1e;">
-            <div class="p-4" id="news">
-                <div class="section-heading">
-                    <h2>Articles</h2>
-                </div>
-                <div class="single-team-member d-flex align-items-center">
-                    <div class="team-member-thumbnail">
-                        <img src="img/1.jpg">
-                    </div>
-                    <div class="team-member-content">
-                        <h5>‘นักชิมเบียร์มืออาชีพ’ บุคลากรผู้อยู่เบื้องหลังรสชาติติดปากของเบียร์จีน</h5>
-                        <span>August 13, 2019</span>
-                        <p>ชิงเต่า, 12 ส.ค. (ซินหัว) — สำหรับจูเหล่ย หญิงสาววัย 35 ปี เบียร์ไม่ใช่แค่ข้าวหมักรสหวานที่ผสมผสานกับรสขมอย่างลงตัวเท่านั้น แต่ยังเป็นส่วนผสมรสชาติอันซับซ้อนมากกว่า 90 รสชาติ</p>
-                        <a href="news_content1.html" class="btn btn-outline-warning btn-sm" role="button">Read more</a>
-                    </div>
-                </div>
-                <div class="single-team-member d-flex align-items-center">
-                    <div class="team-member-thumbnail">
-                        <img src="img/2.jpg">
-                    </div>
-                    <div class="team-member-content">
-                        <h5>โรงเบียร์ในสหรัฐฯ มาแปลก ผลิตเบียร์คราฟต์รสแกงเขียวหวาน จากแรงบันดาลใจอาหารไทย</h5>
-                        <span>October 28, 2019</span>
-                        <p>แวดวงธุรกิจเบียร์คราฟต์ยังคงเติบโตอย่างต่อเนื่องในสหรัฐฯ โดยปกติเราจะเห็นการสร้างสรรค์รสชาติเบียร์ด้วยการนำผลไม้มาเป็นส่วนหนึ่งของเครื่องดื่ม</p>
-                        <a href="news_content2.html" class="btn btn-outline-warning btn-sm" role="button">Read more</a>
-                    </div>
-                </div>
-                <div class="single-team-member d-flex align-items-center">
-                    <div class="team-member-thumbnail">
-                        <img src="img/3-1.jpg">
-                    </div>
-                    <div class="team-member-content">
-                        <h5>เมื่อศาสนาและน้ำเมาเข้ากันได้ รู้จัก ‘แทรปปิสต์’ เบียร์รสพระทำที่หมักเองโดยนักบวช</h5>
-                        <span>September 01, 2019</span>
-                        <p>ไม่ว่าจะดูยังไง ศาสนาและเครื่องดื่มมึนเมาก็ไม่น่าจะเป็นเรื่องที่ไปด้วยได้ ขนาดชาวพุทธอย่างเราๆ ก็ยังท่องจำศีลข้อ 5 กันมาตั้งแต่ไหนแต่ไร “สุราเมระยะ มัชชะ ประมาทัฏฐานา เวระ มณี สิกขาประทัง สมาธิ ยามิ…”</p>
-                        <a href="news_content3.html" class="btn btn-outline-warning btn-sm" role="button">Read more</a>
-                    </div>
-                </div>
-                <div class="stage">
-                    <a href="news.html">Read More...</a>
-                </div>
-            </div>
-            </div></div>
-
-            <img src="img/banner-vote.png" id="vote" class="mt-5 w-100" alt="...">
-
-            <div data-spy="scroll" class="container" data-target="navbarTogglerDemo03" data-offset="50">
-            <div class="pt-5">
-<!--                <h1>Vote <span style="font-size: 18px; color: #575757">( Closed )</span></h1>-->
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                        <div class="card mb-2 mr-3 mt-3 ">
-                            <img class="card-img-top size_vote mx-auto d-block " src="img/Mahanakhon.png" alt="Card image cap">
-                            <div class="overlay">
-                                <p>86%</p>
-                            </div>
-                        </div>
-                        <div class="mt-3 mb-2 mr-3 mr-point" >
-                            <div class="name_vote">
-                                <a class="text-warning" href="barrel-content3.html">WHITE ALE
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                        <div class="card mb-2 mr-3 mt-3">
-                            <img class="card-img-top size_vote mx-auto d-block " src="img/Bannok.png" alt="Card image cap">
-                            <div class="overlay">
-                                <p>4%</p>
-                            </div>
-                        </div>
-                        <div class="mt-3 mb-2 mr-3 mr-point" >
-                            <div class="name_vote">
-                                <a class="text-warning" href="barrel-content1.html">KISS ME DEADLY</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                        <div class="card mb-2 mr-3 mt-3">
-                            <img class="card-img-top size_vote mx-auto d-block " src="img/Brand1.png" alt="Card image cap">
-                            <div class="overlay">
-                                <p>10%</p>
-                            </div>
-                        </div>
-                        <div class="mt-3 mb-2 mr-3 mr-point" >
-                            <div class="name_vote">
-                                <a class="text-warning" href="barrel-content6.html">CHALAWAN PALE ALE</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                        <div class="card mb-2 mr-3 mt-4">
-                            <img class="card-img-top size_vote mx-auto d-block " src="img/GoldenCoin.png" alt="Card image cap">
-                            <div class="overlay">
-                                <p>50%</p>
-                            </div>
-                        </div>
-                        <div class="mt-3 mb-2 mr-3 mr-point" >
-                            <div class="name_vote">
-                                <a class="text-warning" href="barrel-content2.html">KING OF COINS</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                        <div class="card mb-2 mr-3 mt-4">
-                            <img class="card-img-top size_vote mx-auto d-block " src="img/SandPort.png" alt="Card image cap">
-                            <div class="overlay">
-                                <p>25%</p>
-                            </div>
-                        </div>
-                        <div class="mt-3 mb-2 mr-3 mr-point" >
-                            <div class="name_vote">
-                                <a class="text-warning" href="barrel-content4.html">BROKEN SWORD</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                        <div class="card mb-2 mr-3 mt-4">
-                            <img class="card-img-top size_vote mx-auto d-block " src="img/Whale.png" alt="Card image cap">
-                            <div class="overlay">
-                                <p>25%</p>
-                            </div>
-                        </div>
-                        <div class="mt-3 mb-2 mr-3 mr-point" >
-                            <div class="name_vote">
-                                <a class="text-warning" href="barrel-content5.html">WHALE PALE ALE</a>
-                            </div>
-                        </div>
-                    </div>             
-                </div>     
-            </div>
-        </div>
-
-        <img src="img/footer.png" class="mt-5 w-100" alt="...">
-
-        <footer class="footer py-3">
-            <div class="container text-center">
-                <span class="text-muted">@Math-ACS, KMUTT</span>
-            </div>
-        </footer>
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        </div>  
     </body>
-    
 </html>

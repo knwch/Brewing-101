@@ -30,6 +30,16 @@ body {
 }
 
 /* index */
+.card-color {
+    background-color: #2d2d2d;
+    margin: 10% 28% 15% 28%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* home */
 .size_vote {
     width: 85%;
     height: auto;
