@@ -116,6 +116,11 @@ body {
 .card .card-footer a {
     color: black;
 }
+
+.none_li {
+    list-style-type: none;
+}
+
 /* News */
 .pagination {
     list-style: none;
